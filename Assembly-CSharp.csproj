@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets/Script/Tools/ScrollingBackground.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModulePhysics.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleSprite.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleAudio.cs" />

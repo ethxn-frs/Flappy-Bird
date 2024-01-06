@@ -362,6 +362,7 @@
 "Assets/Packages/DOTween/Modules/DOTweenModuleUI.cs"
 "Assets/Packages/DOTween/Modules/DOTweenModuleUnityVersion.cs"
 "Assets/Packages/DOTween/Modules/DOTweenModuleUtils.cs"
+"Assets/Script/Tools/ScrollingBackground.cs"
 -langversion:9.0
 
 /deterministic

@@ -18,6 +18,11 @@ public class GameManager : MonoBehaviour
     }
 
     public GameState CurrentState;
+    public float speedPipes;
+    public float numberPipes;
+    public float distanceBetweenPipes;
+
+    public Pipe pipePrefab;
 
     private void Awake()
     {

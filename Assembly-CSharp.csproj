@@ -64,6 +64,7 @@
     <Compile Include="Assets/Script/Tools/DebugManager.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModulePhysics2D.cs" />
     <Compile Include="Assets/Script/Pipe.cs" />
+    <Compile Include="Assets/Script/ScoreManager.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets/Script/PipeTeleport.cs" />
     <Compile Include="Assets/Script/Tools/ScrollingBackground.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets/Script/GameManager.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleAudio.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets/Script/CameraController.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleUI.cs" />
     <Compile Include="Assets/Packages/DOTween/Modules/DOTweenModuleUtils.cs" />
   </ItemGroup>

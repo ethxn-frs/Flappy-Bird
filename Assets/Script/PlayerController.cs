@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlayerController : MonoBehaviour
 {
     public float jumpForce = 200;
     public float rotationSpeed = 3;
+
     public Rigidbody2D rb;
+    public Animator animator;
+
     bool isReady, isDead;
 
     void Start()
@@ -52,5 +56,20 @@ public class PlayerController : MonoBehaviour
                 rb.AddForce(Vector2.up * jumpForce);
             }
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Die(); 
+    }
+
+    void Die()
+    {
+        if (isDead)
+            return;
+        isDead = true;
+        animator.speed = 0;
+        transform.DORotate(new Vector3(0, 0, -90), 0.5f);
+        GameManager.Instance.EndGame();
     }
 }

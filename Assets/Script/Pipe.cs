@@ -48,6 +48,6 @@ public class Pipe : MonoBehaviour
     public void UpdatePosition()
     {
         transform.position = new Vector3(transform.position.x + distanceBetweenPipes * numberPipes, startPositionY, transform.position.z);
-        transform.position = new Vector3(transform.position.x, startPositionY + Random.Range(-2, 2), transform.position.z);
+        transform.position = new Vector3(transform.position.x, startPositionY + Random.Range(-3, 3), transform.position.z);
     }
 }

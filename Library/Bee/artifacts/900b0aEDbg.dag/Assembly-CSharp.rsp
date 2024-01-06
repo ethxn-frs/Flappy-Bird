@@ -362,10 +362,12 @@
 "Assets/Packages/DOTween/Modules/DOTweenModuleUI.cs"
 "Assets/Packages/DOTween/Modules/DOTweenModuleUnityVersion.cs"
 "Assets/Packages/DOTween/Modules/DOTweenModuleUtils.cs"
+"Assets/Script/CameraController.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/Pipe.cs"
 "Assets/Script/PipeTeleport.cs"
 "Assets/Script/PlayerController.cs"
+"Assets/Script/ScoreManager.cs"
 "Assets/Script/Tools/DebugManager.cs"
 "Assets/Script/Tools/ScrollingBackground.cs"
 -langversion:9.0

@@ -4,15 +4,35 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static ScoreManager Instance;
+
+    public int score;
+    public int highScore;
+
+    void Awake()
     {
-        
+        Instance = this; 
     }
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+        score = 0;
+        if (PlayerPrefs.HasKey("HighScore"))
+        {
+            highScore = PlayerPrefs.GetInt("HighScore");
+        }
+        else
+            highScore = 0;
+    }
+
+    public void AddScore()
+    {
+        score++;
+
+        if (score > highScore)
+        {
+            highScore = score;
+            PlayerPrefs.SetInt("HighScore", highScore);
+        }
     }
 }

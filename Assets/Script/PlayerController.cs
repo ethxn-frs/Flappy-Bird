@@ -63,6 +63,14 @@ public class PlayerController : MonoBehaviour
         Die(); 
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Pipe"))
+        {
+            ScoreManager.Instance.AddScore();
+        }
+    }
+
     void Die()
     {
         if (isDead)

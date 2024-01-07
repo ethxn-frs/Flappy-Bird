@@ -370,6 +370,7 @@
 "Assets/Script/ScoreManager.cs"
 "Assets/Script/Tools/DebugManager.cs"
 "Assets/Script/Tools/ScrollingBackground.cs"
+"Assets/Script/UIController.cs"
 -langversion:9.0
 
 /deterministic

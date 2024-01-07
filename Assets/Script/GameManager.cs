@@ -7,10 +7,9 @@ using System;
 public class GameManager : MonoBehaviour
 {
     static public GameManager Instance;
+
     static public event Action OnGameStarted;
     static public event Action OnGameEnded;
-
-    public GameState CurrentState;
 
     public float speedPipes;
     public float numberPipes;
@@ -25,6 +24,8 @@ public class GameManager : MonoBehaviour
         InGame,
         GameOver
     }
+
+    public GameState CurrentState;
 
     private void Awake()
     {

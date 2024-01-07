@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{071E10C7-98A1-E18C-E3D1-1B0603687006}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c4b35d00-9f14-4e74-ba0c-29e0d93dc180" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/UIController.cs">
+    <Files>
+      <File FileName="Assets/Script/Tools/ScrollingBackground.cs" Line="30" Column="77" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="66" Column="5" />
+      <File FileName="Assets/Script/GameManager.cs" Line="28" Column="35" />
+      <File FileName="Assets/Script/Tools/DebugManager.cs" Line="26" Column="1" />
+      <File FileName="Assets/Script/Pipe.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/CameraController.cs" Line="22" Column="1" />
+      <File FileName="Assets/Script/ScoreManager.cs" Line="21" Column="37" />
+      <File FileName="Assets/Script/UIController.cs" Line="44" Column="21" />
+      <File FileName="Assets/Script/PipeTeleport.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Flappy Bird" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Script" expanded="True">
+                <Node name="Tools" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

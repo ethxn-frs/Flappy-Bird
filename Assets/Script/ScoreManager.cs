@@ -18,9 +18,7 @@ public class ScoreManager : MonoBehaviour
     {
         score = 0;
         if (PlayerPrefs.HasKey("HighScore"))
-        {
             highScore = PlayerPrefs.GetInt("HighScore");
-        }
         else
             highScore = 0;
     }
@@ -28,6 +26,8 @@ public class ScoreManager : MonoBehaviour
     public void AddScore()
     {
         score++;
+
+        UIController.Instance.UpdateScore(score);
 
         if (score > highScore)
         {

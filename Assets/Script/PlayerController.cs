@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
-    bool isReady, isDead;
+    bool isReady;
+    bool isDead;
 
     void Start()
     {
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Dynamic;
         isReady = true;
         rb.velocity = Vector2.zero;
+        rb.AddForce(Vector2.up * jumpForce);
     }
 
     void Update()
@@ -55,15 +57,18 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = Vector2.zero;
                 rb.AddForce(Vector2.up * jumpForce);
             }
+
+            if (transform.position.y > 6.4)
+                Die();
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         Die(); 
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Pipe"))
         {

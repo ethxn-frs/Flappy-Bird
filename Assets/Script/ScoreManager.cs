@@ -28,6 +28,7 @@ public class ScoreManager : MonoBehaviour
         score++;
 
         UIController.Instance.UpdateScore(score);
+        GameManager.Instance.speedPipes += 0.15;
 
         if (score > highScore)
         {

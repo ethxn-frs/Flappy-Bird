@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
         isReady = true;
         rb.velocity = Vector2.zero;
         rb.AddForce(Vector2.up * jumpForce);
+        AudioManager.Instance.PLaySound(AudioType.Jump, AudioSourceType.Player);
     }
 
     void Update()
@@ -56,6 +57,7 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity = Vector2.zero;
                 rb.AddForce(Vector2.up * jumpForce);
+                AudioManager.Instance.PLaySound(AudioType.Jump, AudioSourceType.Player);
             }
 
             if (transform.position.y > 6.4)
@@ -73,6 +75,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Pipe"))
         {
             ScoreManager.Instance.AddScore();
+            AudioManager.Instance.PLaySound(AudioType.Point, AudioSourceType.Game);
         }
     }
 

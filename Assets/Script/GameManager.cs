@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     static public event Action OnGameStarted;
     static public event Action OnGameEnded;
 
-    public float speedPipes;
+    public double speedPipes;
     public float numberPipes;
     public float distanceBetweenPipes;
     public Pipe pipePrefab;
@@ -53,11 +53,24 @@ public class GameManager : MonoBehaviour
     {
         CurrentState = GameState.GameOver;
         CameraController.Instance.Shake(0.3f, 0.25f);
+        AudioManager.Instance.PLaySound(AudioType.Hit, AudioSourceType.Player);
+        AudioManager.Instance.PLaySound(AudioType.Die, AudioSourceType.Game);
         OnGameEnded?.Invoke();
     }
 
     public void RestartGame()
     {
+        AudioManager.Instance.PLaySound(AudioType.Swoosh, AudioSourceType.Game);
         SceneManager.LoadSceneAsync(0);
+    }
+
+    public void OpenSelectPlayerMenu()
+    {
+        UIController.Instance.OpenSelectPlayerMenu();
+    }
+
+    public void CloseSelectPlayerMenu()
+    {
+        UIController.Instance.CloseSelectPlayerMenu();
     }
 }

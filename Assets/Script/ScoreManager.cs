@@ -34,6 +34,8 @@ public class ScoreManager : MonoBehaviour
         {
             highScore = score;
             PlayerPrefs.SetInt("HighScore", highScore);
+            PlayerPrefs.SetInt("HighScoreSound", 1);
+            PlayerPrefs.Save();
         }
     }
 }

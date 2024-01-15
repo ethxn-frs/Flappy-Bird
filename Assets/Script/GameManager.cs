@@ -60,7 +60,6 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        AudioManager.Instance.PLaySound(AudioType.Swoosh, AudioSourceType.Game);
         SceneManager.LoadSceneAsync(0);
     }
 

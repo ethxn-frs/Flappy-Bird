@@ -1,5 +1,3 @@
-    using System.Collections;
-    using System.Collections.Generic;
     using UnityEngine;
 
     public enum AudioType
@@ -8,7 +6,8 @@
         Die,
         Point,
         Hit,
-        Swoosh
+        Swoosh,
+        HighScore
     }
 
     public enum AudioSourceType
@@ -63,11 +62,8 @@
         {
             foreach ( AudioData data in audioData)
             {
-
                 if (data.type == type)
-                {
                     return data.clip;
-                }
             }
 
             Debug.LogError("AudioManager : No sound found for : " + type);
@@ -88,8 +84,7 @@
             }
 
             PlayerPrefs.Save();
-
-        UpdateVolume();
+            UpdateVolume();
         }
 
         void UpdateVolume()

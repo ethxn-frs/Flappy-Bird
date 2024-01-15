@@ -1,16 +1,21 @@
 ﻿<Properties StartupConfiguration="{071E10C7-98A1-E18C-E3D1-1B0603687006}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Pipe.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="63a7a4d7-165e-4b00-b183-a29389115390" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/UIController.cs">
     <Files>
       <File FileName="Assets/Script/Tools/ScrollingBackground.cs" />
-      <File FileName="Assets/Script/PlayerController.cs" Line="23" Column="11" />
-      <File FileName="Assets/Script/GameManager.cs" Line="75" Column="6" />
+      <File FileName="Assets/Script/PlayerController.cs" />
+      <File FileName="Assets/Script/GameManager.cs" />
       <File FileName="Assets/Script/Tools/DebugManager.cs" />
-      <File FileName="Assets/Script/CameraController.cs" Line="22" Column="1" />
-      <File FileName="Assets/Script/ScoreManager.cs" Line="28" Column="17" />
-      <File FileName="Assets/Script/UIController.cs" Line="289" Column="54" />
-      <File FileName="Assets/Script/PipeTeleport.cs" Line="13" Column="18" />
-      <File FileName="Assets/Script/AudioManager.cs" Line="86" Column="51" />
-      <File FileName="Assets/Script/Pipe.cs" Line="51" Column="107" />
+      <File FileName="Assets/Script/CameraController.cs" />
+      <File FileName="Assets/Script/ScoreManager.cs" />
+      <File FileName="Assets/Script/UIController.cs" Line="502" Column="26" />
+      <File FileName="Assets/Script/PipeTeleport.cs" />
+      <File FileName="Assets/Script/AudioManager.cs" />
+      <File FileName="Assets/Script/Pipe.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,11 +31,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b888c6b8-202d-444d-bec8-e3245ec7f85f" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

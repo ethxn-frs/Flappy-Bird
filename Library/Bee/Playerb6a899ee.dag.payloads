@@ -183,7 +183,7 @@ Payload for "WriteText /Users/ethan/Documents/dev/UnityApp/Flappy CN/Classes/Uni
 
 #pragma once
 
-#define ENABLE_INTERNAL_PROFILER 0
+#define ENABLE_INTERNAL_PROFILER 1
 
 // 4.x ENABLE_BLOCK_ON_GPU_PROFILER and 5.x ENABLE_GPU_TIMING were removed in favor of using xcode tools
 // INCLUDE_OPENGLES_IN_RENDER_TIME was removed
@@ -489,9 +489,6 @@ Payload for "WriteText /Users/ethan/Documents/dev/UnityApp/Flappy CN/Info.plist"
     <key>UISupportedInterfaceOrientations</key>
     <array>
       <string>UIInterfaceOrientationPortrait</string>
-      <string>UIInterfaceOrientationPortraitUpsideDown</string>
-      <string>UIInterfaceOrientationLandscapeRight</string>
-      <string>UIInterfaceOrientationLandscapeLeft</string>
     </array>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <true />
@@ -1907,7 +1904,7 @@ Payload for "WriteText /Users/ethan/Documents/dev/UnityApp/Flappy CN/Unity-iPhon
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Flappy-Bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etang.Flappy-CN";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1947,7 +1944,7 @@ Payload for "WriteText /Users/ethan/Documents/dev/UnityApp/Flappy CN/Unity-iPhon
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Flappy-Bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etang.Flappy-CN";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -2123,7 +2120,7 @@ Payload for "WriteText /Users/ethan/Documents/dev/UnityApp/Flappy CN/Unity-iPhon
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Flappy-Bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etang.Flappy-CN";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -2247,7 +2244,7 @@ Payload for "WriteText /Users/ethan/Documents/dev/UnityApp/Flappy CN/Unity-iPhon
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.DefaultCompany.Flappy-Bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etang.Flappy-CN";
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";

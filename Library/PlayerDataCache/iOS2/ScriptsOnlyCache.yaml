@@ -52,25 +52,43 @@ ScriptsOnlyBuild:
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIController
-    methodName: SelectPlayerFour
+    methodName: SelectPlayerLucas
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: SelectPlayerEnzoLptv
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: SelectPlayerEnzoLpn
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: SelectPlayerAurelien
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: CloseSelectPlayerMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: SelectPlayerPrince
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: ToggleSound
   - assembly: Assembly-CSharp
     fullTypeName: UIController
-    methodName: SelectPlayerThree
+    methodName: SelectPlayerLucas
   - assembly: Assembly-CSharp
     fullTypeName: UIController
-    methodName: SelectPlayerOne
+    methodName: SelectPlayerRobin
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: SelectPlayerFlappy
   - assembly: Assembly-CSharp
     fullTypeName: UIController
     methodName: TriggerStartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIController
-    methodName: SelectPlayerTwo
+    methodName: SelectPlayerThomas
+  - assembly: Assembly-CSharp
+    fullTypeName: UIController
+    methodName: SelectPlayerLiam
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: OpenSelectPlayerMenu
@@ -1013,7 +1031,7 @@ ScriptsOnlyBuild:
     className: DebugManager
   - hash:
       serializedVersion: 2
-      Hash: 776ff86f4f79e2b6f6bd4e4574f5c951
+      Hash: 0392ad0b45e4ac6d64e4d207a905493b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIController
@@ -1068,4 +1086,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: /Users/ethan/Documents/dev/UnityApp/Flappy CN/Build
+  playerPath: /Users/ethan/Documents/dev/UnityApp/Flappy CN/build2

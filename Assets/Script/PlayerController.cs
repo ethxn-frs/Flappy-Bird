@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Pipe"))
+        if (GameManager.Instance.CurrentState == GameManager.GameState.InGame && collision.CompareTag("Pipe"))
         {
             ScoreManager.Instance.AddScore();
             AudioManager.Instance.PLaySound(AudioType.Point, AudioSourceType.Game);
